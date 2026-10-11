@@ -12,15 +12,12 @@ body {
     padding: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #f5f0e1;
-    /* Replace with a local copy: url('images/background.jpg') */
-    background: #000 url('https://i.pinimg.com/736x/f9/cd/c3/f9cdc337dddba4df4a1b83b534eada3a.jpg') no-repeat center center / cover;
+    background: #000 url("/assets/images/s.jpg") no-repeat center center / cover;
     background-attachment: fixed;
 }
 
 .calculator-card {
     background-color: rgba(0, 0, 0, 0.65);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 -5px 38px 3px rgba(212, 175, 55, 0.45) inset;
